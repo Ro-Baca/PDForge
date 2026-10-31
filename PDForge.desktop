@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=PDForge
-Comment=Local PDF Studio
-Exec=/path/to/PDForge/run_pdforge.sh
-Icon=/path/to/PDForge/assets/brand/pdforge-logo.svg
-Terminal=false
-Type=Application
-Categories=Office;Utility;

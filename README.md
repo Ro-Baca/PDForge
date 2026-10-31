@@ -71,7 +71,6 @@ sudo apt install -y tesseract-ocr tesseract-ocr-eng tesseract-ocr-spa
 PDForge/
 ├── run_pdforge.sh            # Main executable launcher script
 ├── install.sh                # Script for easy installation
-├── PDForge.desktop           # Desktop entry for the application
 ├── assets/                   # Replaceable SVG vector graphics
 │   ├── brand/                # App logo and empty dropzone illustrations
 │   ├── tools/                # Icons for all 9 PDF tools
