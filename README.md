@@ -40,6 +40,7 @@ PDForge relies on Open-Source libraries to run localy:
 |**HTML to PDF**|~200 MB|Medium|2 – 3 sec|`.pdf`|
 |**OCR PDF**|~350 MB|High (Burst)|8 – 15 sec|`.pdf` (searchable)|
 |**Translate PDF**|~100 MB|Low|2 – 4 sec|`.pdf`|
+
 *Idle Memory:* **~45 MB RAM**. Startup time: **< 0.4 seconds**.
 
 # System Requirements
