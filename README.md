@@ -69,6 +69,8 @@ sudo apt install -y tesseract-ocr tesseract-ocr-eng tesseract-ocr-spa
 ```text
 PDForge/
 ├── run_pdforge.sh            # Main executable launcher script
+├── install.sh                # Script for easy installation
+├── PDForge.desktop           # Desktop entry for the application
 ├── assets/                   # Replaceable SVG vector graphics
 │   ├── brand/                # App logo and empty dropzone illustrations
 │   ├── tools/                # Icons for all 9 PDF tools
@@ -89,15 +91,21 @@ All icons in PDForge are standalone geometric SVG files. You can customize the l
   
 # Quick Start
 
-1. Clone or open the repository:
+1. Open the repository folder:
 ```bash
 cd PDForge
 ```
 
-2. Launch the application:
+2. Launch the desktop intallation script:
+```bash
+./install.sh
+```
+or
+
+Launch the application directly:
 ```bash
 ./run_pdforge.sh
 ```
-*(Or run directly via `python3 src/pdforge_app.py`)*
+
 
 3. Click **"Load Test Sample"** inside any tool to test the engine with pre-generated synthetic files without needing to find a document first.
